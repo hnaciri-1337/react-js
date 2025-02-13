@@ -1,25 +1,23 @@
+import logo from './logo.png';
 import './App.css';
 
 function App() {
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen bg-[#D84315] text-white">
-      {/* UM6P Logo Placeholder */}
-      <h1 className="text-6xl font-bold tracking-wide uppercase">UM6P</h1>
-
-      {/* Simple Message */}
-      <p className="mt-4 text-lg font-medium">
-        This is a demo from deployed react app.
-      </p>
-
-      {/* Call-to-action */}
-      <a
-        className="mt-6 px-6 py-3 text-lg font-semibold bg-white text-[#D84315] rounded-lg shadow-lg hover:bg-gray-200 transition"
-        href="https://um6p.ma"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        Visit UM6P
-      </a>
+    <div className="App">
+      <header className="App-header">
+        <img src={logo} className="App-logo" alt="logo" />
+        <p>
+          Welcome to React App Build, Deploy and Run using Simlab Cloud Plateform.
+        </p>
+        <a
+          className="App-link"
+          href="https://reactjs.org"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Learn more about Simlab Cloud
+        </a>
+      </header>
     </div>
   );
 }
